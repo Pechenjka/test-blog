@@ -4,7 +4,7 @@
 
 - JavaScript
 - React
-- Redux Toolkit
+- Redux
 - Sass
 
 ### Запуск приложения на локальной машине
