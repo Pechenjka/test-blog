@@ -1,0 +1,37 @@
+.detailPost {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+  &__image {
+    border-radius: 15px;
+  }
+  &__title {
+    font-family: "Raleway", sans-serif;
+    margin: 0 0 15px;
+    line-height: 40px;
+    color: #363636;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  &__text,
+  &__time {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 30px 0 15px;
+  }
+  &__time {
+    margin: 10px 0 0;
+  }
+  &__link {
+    width: max-content;
+    padding: 10px 20px;
+    background-color: #BC8F8FFF;
+    display: block;
+    text-decoration: none;
+    color: #FFFFFFFF;
+    border: none;
+    border-radius: 8px;
+  }
+}
